@@ -1,0 +1,84 @@
+.stats {
+  background: url("../jpg/Frame-10.jpg");
+  background-size: 100%;
+  height: 342px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-stats {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  height: 210px;
+}
+
+.list-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 260px;
+  height: 210px;
+}
+
+.conteiner__heder-interest {
+  height: 75px;
+  width: 260px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.heder-interest {
+  background: url("../jpg/sensor.svg") no-repeat center center;
+  width: 75px;
+  height: 75px;
+}
+
+.heder-peopl {
+  background: url("../jpg/peopl.svg") no-repeat center center;
+  width: 75px;
+  height: 75px;
+}
+
+.mid-interest {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 83px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.mid-peopl {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 83px;
+  letter-spacing: 0.03em;
+  color: #5E80FF;
+}
+
+.footer-interest {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.footer-peopl {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  color: #5E80FF;
+}

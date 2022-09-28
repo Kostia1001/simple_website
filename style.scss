@@ -1,0 +1,37 @@
+@import 'header.scss';
+@import 'increaseProduct.scss';
+@import 'customers.scss';
+@import 'plan-end-manage.scss';
+@import 'about-us.scss';
+@import 'stats.scss';
+@import 'blog.scss';
+@import 'fillet.scss';
+@import 'asced-list.scss';
+@import 'get-started.scss';
+@import 'email-registration.scss';
+@import 'footer.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body {     
+ display: flex;
+ justify-content: center;
+ flex-direction: column; 
+}    
+ul {                               
+    display: flex;   
+    list-style: none;     
+    padding-left: 0;                                      
+}                                           
+                                                       
+* {                                                          
+    box-sizing: border-box;                                     
+    margin: 0;  
+    padding: 0;                                                        
+}                    
+                                           

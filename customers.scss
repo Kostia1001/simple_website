@@ -1,0 +1,39 @@
+.customers {
+    height: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos {
+    width: 888px;
+    height: 29px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-logo {
+
+    width: 117px;
+}
+
+.bitbucket {
+    background: url("../logo/bitbucket.svg") no-repeat center center;
+}
+
+.apple-watch {
+    background: url("../logo/apple-watch.svg") no-repeat center center;
+}
+
+.audi {
+    background: url("../logo/audi.svg") no-repeat center center;
+}
+
+.atlassian {
+    background: url("../logo/atlassian.svg") no-repeat center center;
+    
+}
+
+.facebook {
+    background: url("../logo/facebook.svg") no-repeat center center;
+}

@@ -1,0 +1,146 @@
+.increase {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../jpg/heroImage.jpg);
+    background-repeat: no-repeat;
+    background-position: 43% 67%;
+    background-size: 108%;
+    height: 570px;
+}
+ 
+.content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 590px;
+    height: 266px;
+    margin-top: 50px;
+}
+
+.content-text:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.increase__text--top {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3D4F9F;
+}
+
+.increase__text--conteiner {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.increase__text--midlle {
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #3D4F9F;
+   
+}
+
+.increase__text--bolt {
+
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #3D4F9F;
+    margin-left: 5px;
+
+}
+
+.increase__text--conteiner-bot {
+    display: flex;
+    justify-content: center;
+
+}
+
+.increase__text--bot {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #8D96BD;
+    width: 502px;
+    height: 78px;
+}
+
+.play-button {
+    margin-top: 20px;
+    padding-top: 6px;
+    padding-left: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    width: 52px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.polygon {
+
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    background: url("../logo/Polygon.svg") no-repeat center center;
+    cursor: pointer;
+    transition: 0.15;
+}
+
+.polygon:hover {
+    opacity: 0.4;
+}
+
+.group-point {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.increase__group-point {
+    margin-top: 150px;
+    width: 48px;
+    height: 8px;
+}
+.point {
+    background: #D1D6E3;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.15;
+}
+
+.point:hover {
+    background: #5283FF;
+}

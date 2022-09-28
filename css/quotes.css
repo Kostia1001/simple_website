@@ -1,0 +1,47 @@
+.quotes {
+  height: 479px;
+  background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.customers {
+  width: 333px;
+  height: 187.39px;
+}
+
+.quidam-text {
+  height: 261.55px;
+  width: 423px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.quotes__group-point {
+  width: 168px;
+  height: 8px;
+}
+
+.quidam-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  width: 423px;
+  height: 175.37px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #676F95;
+  padding: 41.09px 71px 53.11px 69px;
+}
+
+.quidam-bot {
+  border-radius: 50%;
+  background: url("../jpg/Ellipse2.jpg") no-repeat center center;
+}

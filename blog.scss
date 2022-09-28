@@ -1,0 +1,114 @@
+.blog {
+    background: #F5F8FF;
+    height: 865px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title__blog {
+    width: 251px;
+    height: 62px;
+}
+
+.basic-arrow {
+    width: 1154px;
+    height: 394px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    width: 25px;
+    height: 25px;
+}
+
+.arrow-left {
+    background: url("../logo/arrow-left.svg")no-repeat center center;
+
+}
+
+.arrow-right {
+    background: url("../logo/arrow-right.svg")no-repeat center center;
+}
+
+.basic {
+    background: #FFFFFF;
+    width: 958px;
+    height: 394px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.laptop {
+    background: url("../jpg/illustrationsBlog.png")no-repeat center center;
+    width: 410px;
+    height: 270px;
+    background-position: 50% 44%;
+    border-radius: 4px;
+}
+
+.blog__conteiner-text {
+    width: 410px;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.blog__text {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #3D4F9F;
+}
+
+.blog__text-mid {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: #8D96BD;
+}
+
+.buttn-conteiner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blog__transparency-button {
+    width: 211px;
+    height: 43px;
+    margin-left: 5px;
+}
+
+.transparency-button {
+    background-color: #FFFFFF;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    color: #A6B6DA;
+    border: none;
+    cursor: pointer;
+    transition: 0.15;
+}
+.blog__transparency-button:hover {
+  opacity: 0.5;
+}
+.blog__group-point {
+    width: 48px;
+    height: 8px;
+}

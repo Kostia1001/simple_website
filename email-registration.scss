@@ -1,0 +1,83 @@
+.email-registration {
+    height: 332px;
+    background: #FCFDFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #D8E3FE;
+}
+
+.email-registration__conteiner-text {
+    width: 330px;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.email-registration__text-midll {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: start;
+    color: #3D4F9F;
+}
+
+.email-registration__text-bot {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: #8D96BD;
+}
+
+.email-registration__conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 477px;
+    height: 59px;
+    margin-left: 60px;
+}
+
+.email-input {
+    width: 279px;
+    height: 59px;
+    background: #EFEFF7;
+    border-radius: 5px;
+    border: none;
+}
+
+.email-input::placeholder {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    align-items: center;
+    text-align: start;
+    color: #7A85AD;
+    padding-left: 23px;
+    
+}
+.email-registration-button {
+    background: #4D6CE1;
+    box-shadow: 0px 5px 15px rgba(116, 104, 255, 0.2);
+    border-radius: 5px;
+    width: 184px;
+    height: 59px;
+    border: none;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
