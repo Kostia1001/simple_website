@@ -23,7 +23,7 @@
   margin-right: 42px;
 }
 
-.header__item {
+.menu__item {
   text-decoration: none;
   font-family: "Quicksand";
   font-style: normal;
@@ -39,11 +39,11 @@
   text-shadow: 0px 0px 5px #E6E6E6;
 }
 
-.header__item:hover {
+.menu__item:hover {
   opacity: 0.5;
 }
 
-.header__item--active {
+.menu__item--active {
   color: #5E81FE;
 }
 
@@ -54,7 +54,7 @@
   width: 319px;
 }
 
-.header__media {
+.social__media {
   width: 17px;
 }
 
@@ -65,19 +65,19 @@
   height: 17px;
 }
 
-.header__media--facebook {
+.social__media--facebook {
   background: url("../menuLogo/facebook.svg") no-repeat center center;
 }
 
-.header__media--telegram {
+.social__media--telegram {
   background: url("../menuLogo/Telegram_logo.svg") no-repeat center center;
 }
 
-.header__media--twitter {
+.social__media--twitter {
   background: url("../menuLogo/twitter.svg") no-repeat center center;
 }
 
-.header__media--medium {
+.social__media--medium {
   background: url("../menuLogo/m.svg") no-repeat center center;
 }
 

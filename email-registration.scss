@@ -77,7 +77,8 @@
     line-height: 16px;
     align-items: center;
     text-align: center;
-
     color: #FFFFFF;
-
+   &:hover {
+    opacity: 0.5;
+   }
 }
